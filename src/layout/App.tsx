@@ -1,4 +1,4 @@
-import { useState } from "react"
+import React,{ useState } from "react"
 
 interface Person {
   name: string,
@@ -6,7 +6,7 @@ interface Person {
   image: string
 }
 
-function App() {
+const App = () => {
   const [people,setPeople] = useState([
     {
       name: 'Calvin Hawkins',
