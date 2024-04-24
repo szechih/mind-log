@@ -22,7 +22,7 @@ const config = {
     },
     plugins: [
         new HtmlWebpackPlugin({
-            template: 'index.html',
+            template: './public/index.html',
         }),
 
         // Add your plugins here
@@ -54,6 +54,9 @@ const config = {
     },
     resolve: {
         extensions: ['.tsx', '.ts', '.jsx', '.js', '...'],
+        alias: {
+            "@": path.resolve(__dirname, 'src'),
+        },  
     },
 };
 

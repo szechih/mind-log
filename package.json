@@ -1,5 +1,5 @@
 {
-  "name": "my-webpack-project",
+  "name": "mind-log",
   "version": "1.0.0",
   "private": true,
   "scripts": {
@@ -13,6 +13,8 @@
     "serve": "webpack serve"
   },
   "dependencies": {
+    "@radix-ui/react-label": "^2.0.2",
+    "@radix-ui/react-switch": "^1.0.3",
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
@@ -20,9 +22,14 @@
     "@types/node": "^16.18.96",
     "@types/react": "^18.2.78",
     "@types/react-dom": "^18.2.25",
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.1.0",
+    "lucide-react": "^0.372.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
+    "tailwind-merge": "^2.3.0",
+    "tailwindcss-animate": "^1.0.7",
     "web-vitals": "^2.1.4"
   },
   "eslintConfig": {
@@ -62,5 +69,5 @@
     "webpack-dev-server": "^5.0.4",
     "workbox-webpack-plugin": "^7.0.0"
   },
-  "description": "My webpack project"
+  "description": "Mind Log"
 }
